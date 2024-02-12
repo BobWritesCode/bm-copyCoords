@@ -1,4 +1,4 @@
-# Bob's Mods - Copy Coords to Clipboard
+# Bob's Mods - Copy coords to clipboard
 
 ## Description
 
