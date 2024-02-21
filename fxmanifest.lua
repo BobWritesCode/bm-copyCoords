@@ -6,7 +6,6 @@ version '1.00'
 
 
 shared_scripts {
-
 }
 
 client_scripts {
