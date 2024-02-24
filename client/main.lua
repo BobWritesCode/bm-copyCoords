@@ -31,4 +31,19 @@ RegisterNetEvent('bm-copyCoords:client:copyCamRot', function()
   })
 end)
 
+RegisterNetEvent('bm-copyCoords:client:getAllItems', function()
+  local items = QBCore.Shared.Items
+  local itemsString = ''
+  local isFirst = true
+  for key, value in pairs(items) do
+    if isFirst then
+      itemsString = key
+      isFirst = false
+    else
+      itemsString = itemsString .. ", " .. key
+    end
+  end
+  print(itemsString)
+end)
+
 print("Bob\'s Mods - Copy Coords loaded.")
