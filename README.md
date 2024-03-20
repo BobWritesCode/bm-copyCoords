@@ -1,14 +1,16 @@
 # [Bob's Mods] Copy Coords
 
-## BROKEN - DO NOT USE - WILL FIX ASAP
-
 ## Description
 
-This script provides 3 commands `cv3`, `cv4`, `crot`.
+A simple script to allow easy copying of vector coords and rotation. Great for updating config files with locations.
 
 ## Dependencies
 
 - QB-Core
+
+## Usage
+
+Use any of the the listed commands, and the required variable will be copied to the computer's clipboard to be pasted anywhere for us.
 
 ## Commands
 
