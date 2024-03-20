@@ -1,5 +1,3 @@
-QBCore = exports['qb-core']:GetCoreObject()
-
 RegisterNetEvent('bm-copyCoords:client:copyCoordsV3', function()
   local coordsToCopy = GetEntityCoords(PlayerPedId())
   coordsToCopy = "vec3(" .. coordsToCopy.x .. ", " .. coordsToCopy.y .. ", " .. coordsToCopy.z .. ")"
@@ -29,21 +27,6 @@ RegisterNetEvent('bm-copyCoords:client:copyCamRot', function()
     action = 'copy',
     toCopy = coordsToCopy
   })
-end)
-
-RegisterNetEvent('bm-copyCoords:client:getAllItems', function()
-  local items = QBCore.Shared.Items
-  local itemsString = ''
-  local isFirst = true
-  for key, _ in pairs(items) do
-    if isFirst then
-      itemsString = key
-      isFirst = false
-    else
-      itemsString = itemsString .. ", " .. key
-    end
-  end
-  DebugPrint(itemsString)
 end)
 
 print("^4[Log] ^3bm-copyCoords ^2started^7")

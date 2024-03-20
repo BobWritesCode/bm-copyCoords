@@ -13,8 +13,4 @@ QBCore.Commands.Add('crot', "Copy cam rotation", {}, false, function(source)
   TriggerClientEvent('bm-copyCoords:client:copyCamRot', source)
 end)
 
-QBCore.Commands.Add('getallitems', "Prints all items from shared config lua into consoles", {}, false, function(source)
-  TriggerClientEvent('bm-copyCoords:client:getAllItems', source)
-end)
-
 print("^4[Log] ^3bm-copyCoords ^2started^7")
