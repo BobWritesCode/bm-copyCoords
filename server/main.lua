@@ -17,4 +17,4 @@ QBCore.Commands.Add('getallitems', "Prints all items from shared config lua into
   TriggerClientEvent('bm-copyCoords:client:getAllItems', source)
 end)
 
-print("Bob\'s Mods - Copy Coords loaded.")
+print("^4[Log] ^3bm-copyCoords ^2started^7")
