@@ -6,6 +6,8 @@ version '1.00'
 
 
 shared_scripts {
+  'shared/config.lua',
+  'shared/utils.lua'
 }
 
 client_scripts {
@@ -15,7 +17,6 @@ client_scripts {
 server_script {
   'server/main.lua'
 }
-
 
 ui_page 'html/index.html'
 
